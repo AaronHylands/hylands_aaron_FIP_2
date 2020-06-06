@@ -1,68 +1,78 @@
-.hidden 
+.hidden
 {
 	display: none;
 }
 
-#container
+div, header, section, nav, body
 {
-	width: 960px;
-	padding: 0 10px 0 10px; /*trbl*/
-	margin: 0 auto; /*centers the container*/
+	font-family: omnes-pro, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 38px;
+}
+
+#siteBackground
+{
+		width: 100%;
+		height: 100%;
+		background-image: url('../images/paper_towel_seamless.jpg');
+}
+
+#wrapper
+{
+	margin: 0 auto;
+	width: 1200px;
 }
 
 #mainHeader
 {
 	display: flex;
 	flex-direction: row;
+	width: 1200px;
+	height: 90px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #63AEAA;
 }
 
 #mainNav
 {
-	height: 40px;
-	width: 290px;
-	background-color: #555434;
+	align-self: center;
+
 }
 
-#subNav
-{
-	height: 40px;
-	width: 650px;
-	background-color: #23550b;
-}
-
-#logo
-{
-	height: 100px;
-	width: 250px;
-	background-color: #f0aeae;
-	margin-left: auto;
-	margin-top: 10px;
-}
-
-#mainProduct
+#mainNav ul
 {
 	display: flex;
 	flex-direction: row;
 }
 
-#mainProductImage
+#mainNav ul li
 {
-	width: 200px;
-	height: 300px;
-	background-color: #3c4209;
-	margin-right: 60px;
+	margin-right: 15px;
 }
 
-#mainProductDescription
+#mainNav ul li a
 {
-	background-color: #75687a;
-	width: 700px;
-	height: 300px;
+	text-decoration: none;
+	color: white;
 }
 
+.selected
+{
+	text-decoration: underline;
+}
 
+#mainNav ul li a:hover
+{
+	text-decoration: none;
+	color: grey;
+}
 
-
-
-
-
+.logoContainer
+{
+	margin-left: 10px;
+	align-self: flex-start;
+	height: 90px;
+	width: 250px;
+}
