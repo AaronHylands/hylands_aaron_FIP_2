@@ -29,33 +29,29 @@ div, header, section, nav, body
 {
 	display: flex;
 	flex-direction: row;
-	width: 1200px;
-	height: 675px;
-	background-image: url('../images/homepage_banner.jpg');
 	justify-content: space-between;
 	align-items: center;
 	background-color: #63AEAA;
 }
 
-#mainNav
+.mainNav
 {
 	align-self: flex-start;
 	margin-top: 25px;
-
 }
 
-#mainNav ul
+.mainNav ul
 {
 	display: flex;
 	flex-direction: row;
 }
 
-#mainNav ul li
+.mainNav ul li
 {
 	margin-right: 15px;
 }
 
-#mainNav ul li a
+.mainNav ul li a
 {
 	text-decoration: none;
 	color: #FFFAFA;
@@ -66,7 +62,7 @@ div, header, section, nav, body
 	text-decoration: underline;
 }
 
-#mainNav ul li a:hover
+.mainNav ul li a:hover
 {
 	text-decoration: none;
 	color: grey;
@@ -80,6 +76,36 @@ div, header, section, nav, body
 	width: 250px;
 }
 
+#welcomeMessage
+{
+	font-size: 100px;
+	color: #FFFAFA;
+	margin-top: 150px;
+	margin-right: 200px;
+}
+
+#heroImage
+{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	width: 1200px;
+	height: 990px;
+	background-image: url('../images/homepage_banner.jpg');
+}
+
+footer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 90px;
+	background-color: #63AEAA;
+}
+
+
 /*================== About Page ==================*/
 
 #mainHeader
@@ -91,4 +117,69 @@ div, header, section, nav, body
 	justify-content: space-between;
 	align-items: center;
 	background-color: #63AEAA;
+}
+
+#aboutTimeline
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.timelineSection
+{
+	display: flex;
+	justify-content: center;
+	width: 1200px;
+	height: 620px;
+}
+
+.timelineLeft
+{
+	display: flex;
+	justify-content: flex-end;
+	width: 500px;
+	height: 620px;
+	margin-right: 25px;
+}
+
+.timelineMiddle
+{
+
+}
+
+.timelineRight
+{
+	display: flex;
+	width: 500px;
+	height: 620px;
+	margin-left: 25px;
+}
+
+.imageContainer
+{
+	align-self: center;
+	height: auto;
+	width: auto;
+}
+
+.textContainer
+{
+	width: 450px;
+	height: auto;
+	text-align: left;
+	align-self: center;
+}
+
+.textContainer h2
+{
+	font-size: 32px;
+	color: #63AEAA;
+}
+
+.textContainer p
+{
+	padding-top: 20px;
+	font-size: 24px;
+	line-height: 38px;
+	color: #63AEAA;
 }
