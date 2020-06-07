@@ -1,0 +1,78 @@
+.hidden
+{
+	display: none;
+}
+
+div, header, section, nav, body
+{
+	font-family: omnes-pro, arial,  sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 38px;
+}
+
+#siteBackground
+{
+		width: 100%;
+		height: 100%;
+		background-image: url('');
+}
+
+#wrapper
+{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+#mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	width: 1200px;
+	height: 90px;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #63AEAA;
+}
+
+#mainNav
+{
+	align-self: center;
+
+}
+
+#mainNav ul
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li
+{
+	margin-right: 15px;
+}
+
+#mainNav ul li a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.selected
+{
+	text-decoration: underline;
+}
+
+#mainNav ul li a:hover
+{
+	text-decoration: none;
+	color: grey;
+}
+
+.logoContainer
+{
+	margin-left: 10px;
+	align-self: flex-start;
+	height: 90px;
+	width: 250px;
+}
