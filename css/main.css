@@ -34,25 +34,24 @@ div, header, section, nav, body
 	background-color: #63AEAA;
 }
 
-#mainNav
+.mainNav
 {
 	align-self: flex-start;
 	margin-top: 25px;
-
 }
 
-#mainNav ul
+.mainNav ul
 {
 	display: flex;
 	flex-direction: row;
 }
 
-#mainNav ul li
+.mainNav ul li
 {
 	margin-right: 15px;
 }
 
-#mainNav ul li a
+.mainNav ul li a
 {
 	text-decoration: none;
 	color: #FFFAFA;
@@ -63,7 +62,7 @@ div, header, section, nav, body
 	text-decoration: underline;
 }
 
-#mainNav ul li a:hover
+.mainNav ul li a:hover
 {
 	text-decoration: none;
 	color: grey;
@@ -94,6 +93,18 @@ div, header, section, nav, body
 	height: 990px;
 	background-image: url('../images/homepage_banner.jpg');
 }
+
+footer
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 90px;
+	background-color: #63AEAA;
+}
+
 
 /*================== About Page ==================*/
 
