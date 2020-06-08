@@ -6,7 +6,7 @@
 	.st0{fill:#63AEAA;}
 	.st1{fill:none;stroke:#63AEAA;stroke-width:5;stroke-miterlimit:10;}
 </style>
-<g>
+<g id="navCircle">
 	<circle class="st0" cx="10" cy="310" r="9.8"/>
 </g>
 <line class="st1" x1="10" y1="310" x2="10" y2="620"/>
