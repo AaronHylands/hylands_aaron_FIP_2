@@ -76,7 +76,7 @@ div, header, section, nav, body
 	width: 250px;
 }
 
-#welcomeMessage
+#welcomeImage
 {
 	font-size: 100px;
 	color: #FFFAFA;
@@ -110,6 +110,29 @@ footer
 	height: 90px;
 	margin-left: 75px;
 }
+
+
+/* KEYFRAMES */
+
+@keyframes flip {
+
+	0%{transform: translate(0,0) rotate(0deg)}
+	25%{transform: translate(0,-50px) rotate(90deg)}
+	50%{transform: translate(0,-100px) rotate(180deg)}
+	75%{transform: translate(0,-50px) rotate(270deg)}
+	100%{transform: translate(0,0) rotate(360deg)}
+
+}
+/* ANIMATED ELEMENTS */
+
+#welcomeMessage:hover
+{
+	animation-name: flip;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+}
+
+
 
 /*================== About Page ==================*/
 
