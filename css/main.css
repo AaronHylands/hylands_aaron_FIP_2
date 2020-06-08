@@ -196,7 +196,7 @@ footer
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: center;
 }
 
 #productContainer1
@@ -330,4 +330,57 @@ footer
 #productContainer4:hover .priceTag {
 	background-color: #FFFAFA;
 	border: 3px solid #63AEAA;
+}
+
+/*================== Contact Page ==================*/
+
+#contactBody
+{
+	display: flex;
+	justify-content: center;
+}
+
+#contactPage
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 460px;
+	width: 950px;
+	margin: 50px auto;
+}
+
+#contactMedia
+{
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+#contactForm
+{
+	height: 460px;
+	width: 460px;
+	margin-top: 42px;
+}
+
+#contactForm h2
+{
+	font-size: 32px;
+	color: #63AEAA;
+	margin-bottom: 18px;
+}
+
+#contactForm p
+{
+	font-size: 24px;
+	color: #63AEAA;
+	line-height: 32px;
+}
+
+#contactForm form label
+{
+	font-size: 24px;
+	color: #63AEAA;
+	line-height: 32px;
+
 }
