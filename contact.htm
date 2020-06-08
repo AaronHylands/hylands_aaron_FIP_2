@@ -7,7 +7,7 @@
 		<link href="css/main.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://use.typekit.net/qsw6yho.css">
 	</head>
-	<body>
+<body id="contactBody">
 <div id="siteBackground"> <!-- siteBackground start -->
 	<div id="wrapper"><!-- wrapper start -->
 		<header id="mainHeaderHome"><!-- mainHeader start -->
@@ -27,26 +27,26 @@
 			</nav>
 		</header><!-- mainHeader end -->
 		<h1 class="hidden">Body Section</h1>
+    <section id="contactPage">
+      <div id="contactMedia">
+        <img src="images/social_media_icons.svg" alt="social media icons" height="360">
+      </div>
 
-		<footer>
-      <h1 class="hidden">Footer Section</h1>
-			<div class="socialMedia">
-        <h2 class="hidden">Social Media Icons</h2>
-				<img src="images/social_media_icons.svg" alt="michelob logo" height="90">
-			</div>
+      <div id="contactForm">
+        <h2>Tell Us What You Think</h2>
+        <p>Reach out to us, either by filling out the form
+          below or visiting one of our social media pages!</p>
+          <form id="contactFormBoxes" action="form.php" method="post">
+              <label for="name">Name:</label> <input type="text" required id="name" name="fullName" size="37" placeholder="Enter your name">
+              <br>
+              <label for="email">Email:</label> <input type="email" required id="email" size="37" placeholder="Enter your Email">
+              <br>
+              <label for="message">Message:</label> <textarea name="message" id="message" required cols="50" rows="8" placeholder="Enter your message..."></textarea>
 
-      <nav class="mainNav">
-				<h2 class="hidden">Footer Nav</h2>
-				<ul>
-					<li><a href="index.htm">Home</a></li>
-					<li><a href="about.htm">About</a></li>
-					<li><a href="history.htm">History</a></li>
-					<li><a href="store.htm">Store</a></li>
-					<li class="selected"><a href="contact.htm">Contact</a></li>
-				</ul>
-			</nav>
+          </form>
+      </div>
 
-    </footer>
+    </section>
 
 	</div><!-- wrapper end -->
 </div><!-- siteBackground end -->
