@@ -65,7 +65,7 @@ div, header, section, nav, body
 .mainNav ul li a:hover
 {
 	text-decoration: none;
-	color: grey;
+	color: #F7EA46;
 }
 
 .logoContainer
@@ -105,6 +105,11 @@ footer
 	background-color: #63AEAA;
 }
 
+.socialMedia
+{
+	height: 90px;
+	margin-left: 75px;
+}
 
 /*================== About Page ==================*/
 
@@ -184,4 +189,145 @@ footer
 	color: #63AEAA;
 }
 
-/*================== History Page ==================*/
+/*================== Store Page ==================*/
+
+.storeContainer
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#productContainer1
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	margin: 70px;
+	height: 350px;
+	width: 350px;
+	background-image: url('../images/product_1-pack.jpg');
+}
+
+#productContainer2
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	margin: 70px;
+	height: 350px;
+	width: 350px;
+	background-image: url('../images/product_2-pack.jpg');
+}
+
+#productContainer3
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	margin: 70px;
+	height: 350px;
+	width: 350px;
+	background-image: url('../images/product_3-pack.jpg');
+}
+
+#productContainer4
+{
+	display: flex;
+	flex-direction: column-reverse;
+	align-items: center;
+	margin: 70px;
+	height: 350px;
+	width: 350px;
+	background-image: url('../images/product_4-pack.jpg');
+}
+
+.priceTag
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 350px;
+	height: 60px;
+	background-color: #63AEAA;
+}
+
+.priceTag h2
+{
+	margin-top: 15px;
+	font-size: 28px;
+	align-self: center;
+	color: #FFFAFA;
+}
+
+.priceTag h3
+{
+	font-size: 30px;
+	align-self: center;
+	color: #63AEAA;
+	visibility: hidden;
+}
+
+.priceTag h3 a {
+	text-decoration: none;
+	color: #63AEAA;
+	visibility: hidden;
+}
+
+#productContainer1:hover .priceTag h2 {
+	display: none;
+}
+
+#productContainer1:hover .priceTag h3 a {
+	visibility: visible;
+	color: #63AEAA;
+}
+
+
+#productContainer1:hover .priceTag {
+	background-color: #FFFAFA;
+	border: 3px solid #63AEAA;
+}
+
+#productContainer2:hover .priceTag h2 {
+	display: none;
+}
+
+#productContainer2:hover .priceTag h3 a  {
+	visibility: visible;
+	color: #63AEAA;
+}
+
+#productContainer2:hover .priceTag {
+	background-color: #FFFAFA;
+	border: 3px solid #63AEAA;
+}
+
+#productContainer3:hover .priceTag h2 {
+	display: none;
+}
+
+#productContainer3:hover .priceTag h3 a  {
+	visibility: visible;
+	color: #63AEAA;
+}
+
+#productContainer3:hover .priceTag {
+	background-color: #FFFAFA;
+	border: 3px solid #63AEAA;
+}
+
+#productContainer4:hover .priceTag h2 {
+	display: none;
+}
+
+#productContainer4:hover .priceTag h3 a  {
+	visibility: visible;
+	color: #63AEAA;
+}
+
+#productContainer4:hover .priceTag {
+	background-color: #FFFAFA;
+	border: 3px solid #63AEAA;
+}
